@@ -1,7 +1,11 @@
-html,
+*{
+    font-family: Verdana;
+    margin: 0%;
+}
 body{
     width: auto;
     height: auto;
+    background-color: gainsboro;
     align-items: center;
     padding: 5%;
 }
@@ -10,11 +14,13 @@ body{
     height: 100%;
     margin: 20px;
     padding: 5px;
-    display: block;
+    display: flexbox;
+    text-align: center;
 }
 header{
     width: auto;
     height: 5%;
+    background-color: white;
     padding: 0.5%;
 }
 h1{
@@ -23,4 +29,22 @@ h1{
     font-family: Verdana;
     text-align: center;
 }
-/*Feed Elements*/
+/*Feed Elements or Content Boxes*/
+.box-header::before{
+    display:inline-block;
+    text-align:justify;
+}
+img{
+    width: 400px;
+}
+.box1{
+    width: 400px;
+    background-color: white;
+    margin: 00.5%;
+    display:block;
+    text-align: justify;
+}
+.content{
+    margin: 10%;
+    padding: 1%;
+}
