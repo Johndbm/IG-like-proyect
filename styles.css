@@ -29,16 +29,21 @@ h1{
     text-align: center;
 }
 /*Feed Elements or Content Boxes*/
-.box1{
+.box{
     width: 400px;
     background-color: white;
-    margin: 00.5%;
-    display:block;
+    display:flexbox;
     text-align: justify;
+    position:relative;
 }
-.box-header::before{
-    display:inline-block;
-    text-align:justify;
+.box-header{
+    display:inline-flexbox;
+}
+h2{
+    text-align: left;
+}
+.date{
+    text-align: right;
 }
 .content{
     margin: 10%;
