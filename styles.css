@@ -39,6 +39,7 @@ h1{
 .box-header{
     display:flex;
     justify-content:space-between;
+    padding: 2%;
 }
 .date{
     
