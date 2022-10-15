@@ -6,7 +6,7 @@ body{
     width: auto;
     height: auto;
     background-color: gainsboro;
-    align-items: center;
+    display:flexbox;
 }
 .wrapper{
     width: auto;
@@ -15,7 +15,7 @@ body{
     padding: 5px;
     display: flexbox;
     text-align: center;
-    align-items: center;
+    
 }
 header{
     width: auto;
@@ -37,7 +37,7 @@ h1{
     position:relative;
 }
 .box-header{
-    display:inline-flexbox;
+    display:contents;
 }
 h2{
     text-align: left;
