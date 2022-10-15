@@ -7,7 +7,6 @@ body{
     height: auto;
     background-color: gainsboro;
     align-items: center;
-    padding: 5%;
 }
 .wrapper{
     width: auto;
@@ -16,12 +15,12 @@ body{
     padding: 5px;
     display: flexbox;
     text-align: center;
+    align-items: center;
 }
 header{
     width: auto;
     height: 5%;
     background-color: white;
-    padding: 0.5%;
 }
 h1{
     width: 100%;
