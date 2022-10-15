@@ -29,13 +29,6 @@ h1{
     text-align: center;
 }
 /*Feed Elements or Content Boxes*/
-.box-header::before{
-    display:inline-block;
-    text-align:justify;
-}
-img{
-    width: 400px;
-}
 .box1{
     width: 400px;
     background-color: white;
@@ -43,7 +36,14 @@ img{
     display:block;
     text-align: justify;
 }
+.box-header::before{
+    display:inline-block;
+    text-align:justify;
+}
 .content{
     margin: 10%;
     padding: 1%;
+}
+img{
+    width: 400px;
 }
